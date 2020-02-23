@@ -1,0 +1,11 @@
+c 3
+a 4
+b 5
+a 2
+abbacaa
+b 2
+a 3
+a 0
+b 1
+aabbcaa
+aabbcaa
