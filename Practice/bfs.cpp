@@ -21,6 +21,7 @@ int main(){
 
     }
     cin>>x;
+    x--;
     int dis[n+5], cont = 0;
     //ll j;
     memset(dis, -1, sizeof(dis));
@@ -39,7 +40,7 @@ int main(){
                 if(dis[v[u][j]] == x){
                     cont++;
                     //cout<<" "<<x<<endl;
-                    cout<<u<<" "<<v[u][j]<<endl;
+                   //cout<<u<<" "<<v[u][j]<<endl;
                 }
             }
 
