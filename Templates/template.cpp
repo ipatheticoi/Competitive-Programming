@@ -7,7 +7,7 @@ typedef long long ll;
 #define mp make_pair
 #define minimum(a)	*min_element(a.begin(), a.end())
 #define maximum(a)	*max_element(a.begin(), a.end())
-
+#define print(x) cout<<x<<endl;
 using namespace std;
 int main(){
     ios_base::sync_with_stdio(false);
