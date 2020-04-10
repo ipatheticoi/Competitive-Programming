@@ -13,5 +13,7 @@ template <typename T> void print(T x, T y) {cout<<x<<" "<<y<<endl;}
 template <typename T> void print(T x, T y, T z) {cout<<x<<" "<<y<<" "<<z<<endl;}
 int main(){
     ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
+    print("Hola mundo");
+    print("Hola ", "Roger");
     return 0;
 }
