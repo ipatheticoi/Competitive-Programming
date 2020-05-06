@@ -33,8 +33,8 @@ int main(){
     while(!s.empty()){
         pair <int, int> p = *s.begin();
         s.erase(s.begin());
-        if(vis[p.first]) continue;
-        vis[p.first] = true;
+        if(vis[p.second]) continue;
+        vis[p.second] = true;
         int x = p.second, weigh = p.first;
         for(int i = 0; i < graph[x].size(); i++){
             int e = graph[x][i].first, w = graph[x][i].second;
